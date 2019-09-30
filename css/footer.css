@@ -1,0 +1,49 @@
+footer{
+    background-color: #F1C40F;
+}
+.footer__img{
+    padding-top: 15%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 120px;
+
+    
+
+}
+@media(min-width: 650px){
+    .footer__img{
+        padding-top: 50px;
+        
+    }
+}
+.footer__endereco{
+    width: 90%;
+    color: aliceblue;
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 18px;
+    text-align: center;
+    padding-top: 15%;
+    padding-bottom: 20%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer__endereco--titulo{
+
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 18px;
+}
+
+@media(min-width: 650px){
+    .footer__endereco{
+        padding-top: 40px;
+        padding-bottom: 30px;
+        width: 45%;
+    }
+}
+
+/* .flexFooter{
+    display: flex;
+    justify-content: center;
+    
+} */
